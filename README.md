@@ -40,7 +40,7 @@ SKIP_PREFLIGHT_CHECK=true
 
 Add .env and configure file in the root of the backend directory by adding:
 
-ATLAS_URI=<your-mongodb-connection-string>
+ATLAS_URI= <your-mongodb-connection-string>
 
 ```bash
 # development
