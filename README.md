@@ -24,7 +24,7 @@ $ cd exerciseTracker
 $ git init
 $ git pull https://github.com/King-cobra711/MERN_Exercise_Tracker.git
 ```
-Set up your Mongodb collection to be connected to this application. visit [Mongodb]{https://www.mongodb.com/} to get started on this. [freeCodeCamp]{https://www.youtube.com/watch?v=7CqJlxBYj-M&ab_channel=freeCodeCamp.org} @ 5:00 has a walkthrough on this.
+Set up your Mongodb collection to be connected to this application. visit [Mongodb](https://www.mongodb.com/) to get started on this. [freeCodeCamp](https://www.youtube.com/watch?v=7CqJlxBYj-M&ab_channel=freeCodeCamp.org) @ 5:00 has a walkthrough on this.
 
 ## Running the app
 
@@ -52,8 +52,8 @@ $ In exerciseTracker/backend directory run: npm start dev
 ```
 
 ## Resources
-* [Mongodb]{https://www.mongodb.com/}.
-* [freeCodeCamp]{https://www.youtube.com/watch?v=7CqJlxBYj-M&ab_channel=freeCodeCamp.org}
+* [Mongodb](https://www.mongodb.com/).
+* [freeCodeCamp](https://www.youtube.com/watch?v=7CqJlxBYj-M&ab_channel=freeCodeCamp.org)
 
 
 
