@@ -29,10 +29,12 @@ Set up your Mongodb collection to be connected to this application. visit [Mongo
 ## Running the app
 
 ```bash
+Install React dependencies:
 $ cd to User/Desktop
-$ npm i (install all dependencies)
+$ npm i
+Install Node dependencies:
 $ cd backend
-$ npm i (install all dependencies)
+$ npm i
 ```
 Add .env and configure file in the root directory by adding:
 
