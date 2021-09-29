@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+[www.matthew.com.au](https://king-cobra711.github.io/My-Site/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a simple MERN-stack (Mongodb, Express, Reactjs, Nodejs) application that can perform CRUD actions as follows:
+### User
+*Get all users (dropdown)
+*Create new user
 
-In the project directory, you can run:
+### Exercises
+*Get all exercises
+*Create exercise
+*Update exercise
+*Delete exercise
 
-### `yarn start`
+Bootstrap was used for the styling and routes were tested using [Postman](https://www.postman.com/) and data for requests/body info is provided in code comments. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `yarn test`
+```bash
+$ mkdir exerciseTracker
+$ cd exerciseTracker
+$ git init
+$ git pull https://github.com/King-cobra711/MERN_Exercise_Tracker.git
+```
+Set up your Mongodb collection to be connected to this application. visit [Mongodb]{https://www.mongodb.com/} to get started on this. [freeCodeCamp]{https://www.youtube.com/watch?v=7CqJlxBYj-M&ab_channel=freeCodeCamp.org} @ 5:00 has a walkthrough on this.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running the app
 
-### `yarn build`
+```bash
+$ cd to User/Desktop
+$ npm i (install all dependencies)
+$ cd backend
+$ npm i (install all dependencies)
+```
+Add .env and configure file in the root directory by adding:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+SKIP_PREFLIGHT_CHECK=true
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Add .env and configure file in the root of the backend directory by adding:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ATLAS_URI=<your-mongodb-connection-string>
 
-### `yarn eject`
+```bash
+# development
+  Start React:
+$ In exerciseTracker directory run: npm start
+  Start Node:
+$ In exerciseTracker/backend directory run: npm start dev
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Resources
+* [Mongodb]{https://www.mongodb.com/}.
+* [freeCodeCamp]{https://www.youtube.com/watch?v=7CqJlxBYj-M&ab_channel=freeCodeCamp.org}
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
