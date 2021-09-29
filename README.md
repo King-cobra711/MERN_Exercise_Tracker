@@ -4,14 +4,14 @@
 
 This is a simple MERN-stack (Mongodb, Express, Reactjs, Nodejs) application that can perform CRUD actions as follows:
 ### User
-*Get all users (dropdown)
-*Create new user
+* Get all users (dropdown)
+* Create new user
 
 ### Exercises
-*Get all exercises
-*Create exercise
-*Update exercise
-*Delete exercise
+* Get all exercises
+* Create exercise
+* Update exercise
+* Delete exercise
 
 Bootstrap was used for the styling and routes were tested using [Postman](https://www.postman.com/) and data for requests/body info is provided in code comments. 
 
